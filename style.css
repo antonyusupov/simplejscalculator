@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.calculator-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+
+.display-container {
+    width: 400px;
+    height: 50px;
+    padding: 1rem 1rem;
+    text-align: end;
+    font-size: 28px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.700);
+}
+
+.buttons-container {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(110, 109, 109);
+    border-radius: 15px;
+    padding: 0.5rem ;
+    margin: 1rem 0;
+}
+.buttons-container button {
+    margin: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#equal {
+    margin: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background: rgb(247, 71, 71);
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+}
+
+#equal:hover {
+    background-color: rgb(200, 71, 71);
+}
+
+.buttons-container button:hover {
+    background-color: rgb(168, 100, 166);
+    font-size: 24px;
+}
+
+#clear {
+    width: 400px;
+    border: none;
+    outline: none;
+    background: yellow;
+    border-radius: 15px;
+    padding: 1rem 0.5rem;
+    font-size: 24px;
+    color: rgb(255, 7, 7);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#clear:hover {
+    background: rgb(146, 146, 1);
+    color: rgb(112, 2, 2);
+}
